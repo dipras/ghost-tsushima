@@ -172,4 +172,10 @@ body {
     #become-ghost img {
         order: 0;
     }
-  }
+}
+
+@media only screen and (max-width: 500px) {
+    #navs {
+        display: none;
+    }
+}
