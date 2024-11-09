@@ -1,6 +1,6 @@
 # GHOST OF TSUSHIMA LANDING PAGE
 ## About
-Ghost of Tsushima is a 2020 action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment. The player controls Jin Sakai, a samurai on a quest to protect Tsushima Island during the first Mongol invasion of Japan. This web just give some description and trailer about ghost of tsushima.
+Ghost of Tsushima is a 2020 action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment. The player controls Jin Sakai, a samurai on a quest to protect Tsushima Island during the first Mongol invasion of Japan. This web just give some description and trailer about ghost of tsushima. you can try it here https://dipras.github.io/ghost-tsushima/
 
 ## Motivation
 This is just small project for my university organization task, [Coder](https://coder-telkomsby.com/). The task is about creating a web based on html and css only. So that's mean, no javascript which make the web have no much trick
