@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'azo-sans-web', sans-serif;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: ghost;
+    src: url(assets/Tsushima.otf);
+}
+
+.jumbotron {
+    background-color: black;
+    padding: 30px 10px;
+}
+
+.jumbotron #logo {
+    width: 100%;
+    max-width: 960px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    
+}
+
+#trailer-link-wrapper {
+    background-image: url(assets/white_button.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 240px;
+    padding: 10px 20px;
+}
+
+#trailer-link-wrapper a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+#content {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.sub-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+#sakai-jin-img-wrapper {
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+#sakai-jin-img {
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.sub-description {
+  flex-grow: 1;  
+}
+
+.sub-description h1 {
+    font-family: ghost;
+}
+
+#become-ghost {
+    gap: 100px;
+}
+
+#become-ghost img {
+    width: 100%;
+    max-width: 400px;
+    order: 2;
+}
+
+#sacrifies {
+    padding: 10px;
+}
+
+#sacrifies img {
+    width: 100%;
+}
+
+#sacrifies h1 {
+    text-align: center;
+    font-family: ghost;
+}
+
+.ghost-color {
+    color: #c71e0e;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+@media only screen and (max-width: 960px) {
+    .sub-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #become-ghost img {
+        order: 0;
+    }
+  }
