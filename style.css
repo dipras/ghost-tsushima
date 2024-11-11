@@ -99,8 +99,9 @@ body {
 #sakai-jin-img-wrapper {
     border: 5px solid black;
     border-radius: 10px;
-    height: 300px;
-    width: 300px;
+    max-width: 300px;
+    width: 60%;
+    aspect-ratio: 1/1;
     position: relative;
     flex-shrink: 0;
 }
